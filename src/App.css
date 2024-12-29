@@ -1,14 +1,32 @@
 #root {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
   text-align: center;
-}
-
-#pixi-parent {
-  align-self: start;
 }
 
 body {
   background: #1099bb;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.week {
+  width: 8px;
+  height: 8px;
+  border-radius: 4px;
+  background: #ddf6fc;
+  border: 1px solid gray;
+  margin: 1px;
+}
+
+.week.padded-right {
+  margin-right: 5px;
+}
+
+.week.filled {
+  border: 1px solid black;
+  background: black;
 }
