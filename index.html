@@ -7,8 +7,12 @@
     <title>Vite + React + TS</title>
   </head>
   <body>
-    <div id="pixi-container"></div>
-    <div id="root"></div>
+    <div id="container">
+      <div id="pixi-parent">
+        <div id="pixi-container"></div>
+      </div>
+      <div id="root"></div>
+    </div>
     <script type="module" src="/src/main-pixi.ts"></script>
     <script type="module" src="/src/main.tsx"></script>
   </body>

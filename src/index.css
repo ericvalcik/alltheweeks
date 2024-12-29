@@ -26,8 +26,19 @@ body {
   margin: 0;
   display: flex;
   place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+  justify-content: center;
+  flex-direction: column;
+  min-width: 375px;
+  min-height: 100dvh;
+}
+
+#container {
+  width: 375px;
+  display: flex;
+  place-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 100dvh;
 }
 
 h1 {
